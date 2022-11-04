@@ -24,3 +24,6 @@ spring:
   batch:
     jdbc:
       initialize-schema: always
+    # Parameters를 코드상으로 입력하기 위해 자동 X
+    job:
+      enabled: false
